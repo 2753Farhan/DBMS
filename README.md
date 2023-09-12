@@ -6,12 +6,13 @@ To create a new user in Oracle, you need administrative privileges. You can log 
 
 Open the 'Run SQL Command Line' and the following command :
 
-
-- **Connect SYSTEM** 
+```sql
+-- Example Oracle SQL code
+Connect SYSTEM
 
 When prompted, enter the following information:
 
-- **Password:** [Your_SYSTEM_Password]
+- **Enter Password:** [Your_SYSTEM_Password]
 
 
 Replace `[Your_SYSTEM_Password]` with the actual password for the SYSTEM user.
