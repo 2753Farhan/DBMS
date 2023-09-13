@@ -11,7 +11,7 @@ Connect SYSTEM
 ```
 When prompted, enter the following information:
 
--**Enter Password:** [Your_SYSTEM_Password]
+- **Enter Password:** [Your_SYSTEM_Password]
 
 
 Replace `[Your_SYSTEM_Password]` with the password you provided while installing oracle.
@@ -20,6 +20,7 @@ Replace `[Your_SYSTEM_Password]` with the password you provided while installing
 **Step 2: Create User: **
 
 ```sql
+
 CREATE USER [username] IDENTIFIED BY [password];
 ```
 Replace [username] with the desired username for the new user and [password] with the desired password.
@@ -28,6 +29,7 @@ Replace [username] with the desired username for the new user and [password] wit
 **Step 3: Grant 'CONNECT' role: **
 
 ```sql
+
 GRANT CONNECT TO [username];
 ```
 Replace [username] with the selected username
