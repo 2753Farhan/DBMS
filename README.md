@@ -9,7 +9,7 @@ Open the 'Run SQL Command Line' and the following command :
 ```sql
 Connect SYSTEM
 ```
-When prompted, enter the following information:
+When prompted, enter the Password:
 
 - **Enter Password:** [Your_SYSTEM_Password] 
 
@@ -25,9 +25,27 @@ CREATE USER [username] IDENTIFIED BY [password];
 Replace `[username]` with the desired username for the new user and `[password]` with the desired password.
 
 
-**Step 3: Grant 'CONNECT' role: **
+### Step 3: Grant 'CONNECT' role:
 
 ```sql
 GRANT CONNECT TO [username];
 ```
-Replace '[username]' with the selected username
+Replace `[username]` with the selected username
+
+
+
+### Step 4: Connect to your user account :
+
+```sql
+connect [username] 
+```
+Replace `[username]` with the selected username
+
+When prompted, enter the Password:
+
+- **Password:** [passeord] 
+
+
+Replace `[Password]` with the password your user account.
+
+Thats it !!!!!
