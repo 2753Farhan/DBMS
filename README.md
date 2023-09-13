@@ -9,7 +9,7 @@ Open the 'Run SQL Command Line' and the following command :
 ```sql
 -- Example Oracle SQL code
 Connect SYSTEM
-
+```
 When prompted, enter the following information:
 
 - **Enter Password:** [Your_SYSTEM_Password]
